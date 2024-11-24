@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/titles_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Login Exercise"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/subtext"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"
+            android:text="Complete the login process.\nYou can find instructions by pressing the buttons below."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/conditions_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/titles_layout">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/condition1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="16dp"
+            android:src="@drawable/undone"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/condition2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="16dp"
+            android:src="@drawable/undone"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/condition3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="16dp"
+            android:src="@drawable/undone"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/condition4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="16dp"
+            android:src="@drawable/undone"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/condition5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="16dp"
+            android:src="@drawable/undone"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
