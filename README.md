@@ -12,9 +12,13 @@ This project demonstrates an innovative login process that combines Android sens
 
 ## Features
 **Interactive Conditions:** Users must interact with their device in specific ways to fulfill the login requirements.
+
 **Sensor Integration:** Utilizes the device's built-in sensors to monitor environmental and user actions.
+
 **Dynamic Feedback:** Visual indicators and dialog messages guide users through each condition.
+
 **Speech Recognition:** Includes voice-based interaction for enhanced accessibility.
+
 **Custom Dialogs:** Provides clear instructions and feedback for each condition.
 
 ## Usage
