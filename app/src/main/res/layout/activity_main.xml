@@ -41,7 +41,8 @@
         android:orientation="vertical"
         android:gravity="center"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/titles_layout">
+        android:layout_below="@id/titles_layout"
+        android:layout_marginTop="16dp">
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/condition1"
@@ -78,9 +79,18 @@
             android:layout_marginVertical="16dp"
             android:src="@drawable/undone"/>
 
-
-
     </LinearLayout>
+
+    <Button
+        android:id="@+id/login_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/conditions_layout"
+
+        android:backgroundTint="#29B6F6"/>
 
 
 </RelativeLayout>
